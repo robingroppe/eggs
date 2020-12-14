@@ -4,9 +4,11 @@ Assetto Corsa is a sim racing video game developed by the Italian video game dev
 
 ## Server Ports
 
-Asseto Corsa requires two ports, game port is UDP and WEB HTTP port is TCP.
+Assetto Corsa requires three ports. 
+Game port is TCP/UDP and HTTP port is TCP only.
 
 | Port        | default |
 |-------------|---------|
-| Game        | 9600   |
-| HTTP       | 8081   |
+| Game-UDP    |  9600   |
+| Game-TCP    |  9600   |
+| HTTP-TCP    |  8081   |
